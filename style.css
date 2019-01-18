@@ -21,6 +21,7 @@ body {
 
 .aboutInfo {
   display: inline-flex;
+  justify-content: space-between;
 }
 
 .whoAmI {
@@ -32,6 +33,14 @@ body {
   justify-content: right;
 }
 
+.projectHead {
+  text-align: center;
+}
+
 .projectImg {
   width: 40%;
+}
+
+.contactInfo {
+  display: inline;
 }
