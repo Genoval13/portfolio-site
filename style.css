@@ -1,5 +1,5 @@
-.img {
-  width: 100%; 
+body {
+  background-color: crimson
 }
 
 .title {
@@ -10,15 +10,28 @@
   float: right;
 }
 
-body {
-  background-color: crimson
+.img {
+  width: 100%; 
 }
 
 .aboutHead {
+  display: block;
   text-align: center;
+}
+
+.aboutInfo {
+  display: inline-flex;
+}
+
+.whoAmI {
+  width: 40%;
+}
+
+.skills {
+  width: 40%;
+  justify-content: right;
 }
 
 .projectImg {
   width: 40%;
 }
-
