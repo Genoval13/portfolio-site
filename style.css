@@ -1,5 +1,5 @@
 body {
-  background-color: crimson
+  background-color: grey
 }
 
 .title {
@@ -33,12 +33,23 @@ body {
   justify-content: right;
 }
 
+.project {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
 .projectHead {
   text-align: center;
 }
 
+.projectText {
+  width: 40%;
+}
+
 .projectImg {
   width: 40%;
+  height: 40%;
 }
 
 .contactInfo {
