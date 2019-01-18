@@ -1,0 +1,19 @@
+.img {
+  width: 100%; 
+}
+
+.title {
+  text-align: center;
+}
+
+.navBar {
+  float: right;
+}
+
+body {
+  background-color: crimson
+}
+
+.aboutHead {
+  text-align: center;
+}
